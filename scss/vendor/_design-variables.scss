@@ -1,0 +1,59 @@
+//Colours
+$color-primary:     #d4432d !default;   // This text is important.  #d4432d
+$color-secondary:   #2e3338 !default;   // Secondary background color.
+$color-success:     #57820d !default;   // This text indicates success.
+$color-info:        #008296 !default;   // This text represents some information.
+$color-warning:     #5b7994 !default;   // This text represents a warning.
+$color-danger:      #e30069 !default;      // This text represents danger.
+$color-light:       #f6f6f6 !default;   // Light grey background color.
+$color-dark:        #25292d !default;   // Dark grey background color.
+
+$blue:    #007bff !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #e30069 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #17a2b8 !default;
+
+$navbar-light-color:        #fff;
+$navbar-light-active-color: #fff;
+$navbar-light-hover-color: $color-primary;
+
+// Bootstrap Variable overrides
+$theme-colors: (
+  "primary":    $color-primary,
+  "secondary":  $color-secondary,
+  "success":    $color-success,
+  "info":       $color-info,
+  "warning":    $color-warning,
+  "danger":     $color-danger,
+  "light":      $color-light,
+  "dark":       $color-dark
+);
+
+// Body
+//
+// Settings for the `<body>` element.
+$body-color: #333;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-family-base: "Poppins";
+$font-weight-bold: 600;
+
+// Links
+//
+// Style anchor elements.
+$link-color:                              $color-primary;
+$link-hover-color:                        $color-danger;
+
+
+// // Alerts
+// //
+// Define alert colors, border radius, and padding.
+$alert-color-level: 7;
